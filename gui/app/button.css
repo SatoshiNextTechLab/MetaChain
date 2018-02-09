@@ -1,0 +1,76 @@
+/* <- Demo Stuff Start */
+
+@font-face {
+  font-family: 'antoniobold';
+  src: url('fonts/antonio-bold-webfont.woff2') format('woff2'),
+       url('fonts/antonio-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-image:url("http://pm1.narvii.com/6702/9ad78c15d4112b0bcb77734c29337bdf93e34287_00.jpg");
+  margin:0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.btn-2 {
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.btn-3 {
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+}
+
+.btn-4 {
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+}
+
+.btn-5 {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+}
+
+/* Magic Stuff End -> */
+
+.butf {
+  font-weight: bold;
+  font-family: antoniobold;
+}

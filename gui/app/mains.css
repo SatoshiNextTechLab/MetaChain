@@ -1,0 +1,82 @@
+.title-arch {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.project {
+width: 100%;
+height: 500px;
+background-image: url(https://i.pinimg.com/736x/27/fd/d4/27fdd427acda1983aa59c23810c1fe8d--karnataka-jeeps.jpg);
+background-size: cover;
+background-position: center;
+padding: 0 !important;
+float:left;
+}
+
+.project-1 {
+  background-image: url(http://www.livemint.com/rf/Image-621x414/LiveMint/Period1/2014/10/10/Photos/LandAquisition--621x414.jpg);
+  }
+
+.project-2 {
+background-image: url(http://www.123countries.com/wp-content/uploads/2015/08/National-Emblem-Of-India-Picture.jpg);
+}
+
+.project-3 {
+background-image: url(https://previews.123rf.com/images/ragsac/ragsac1305/ragsac130500008/19453327-deadline-abstract-newspaper-cutout-with-schedule-chart-background.jpg);
+};
+
+.project-4 {
+background-image: url(https://i.pinimg.com/736x/27/fd/d4/27fdd427acda1983aa59c23810c1fe8d--karnataka-jeeps.jpg);
+}
+
+.project-hover {
+width: 100%;
+height: 100%;
+color: #fff;
+opacity: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: rgba(186, 232, 2, 0.7);
+padding: 40% 30px !important;
+}
+
+.project-hover hr {
+height: 30px;
+width: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: rgba(255, 255, 255, 1);
+border: 0;
+}
+
+.project-hover a {
+color: rgba(255, 255, 255, 1);
+padding: 2px 22px;
+line-height: 40px;
+border: 2px solid rgba(255, 255, 255, 1);
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+.project-hover a:hover {
+border-color: rgba(51, 51, 51, 1);
+color: rgba(51, 51, 51, 1);
+background-color: #FFF;
+}
+
+.project:hover .project-hover {
+opacity: 1;
+}
+
+.project:hover .project-hover hr {
+width: 100%;
+height: 5px;
+}
