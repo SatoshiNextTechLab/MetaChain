@@ -3,7 +3,7 @@
 1. [Link to contract deployed on Ropsten testnet](https://ropsten.etherscan.io/address/0x60b83faf96cd93f96816baf2edcbf9b8004ad611) <br>
 2. [Link to pitchdeck](https://docs.google.com/presentation/d/1Bjv0yhmYSKiW36YgUTf5p1XEU5BMTuJynr9DU1uqINE/edit?usp=sharing) <br>
 
-### Karantaka Tree Protection Act, 1976
+### Karantaka Tree Preservation Act, 1976
 The current legislation requires multiple stakeholders. 
 1. Verification: Verification of documents of ownership is done by Survey department and Revenue Department
 2. Restriction: The "Tree Officer", as stated in TPA 1976, is reponsible for checking malicious activity around the physical space of the tree.
