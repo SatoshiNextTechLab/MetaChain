@@ -1,4 +1,4 @@
-#This project won 25K at the Bengaluru Blockchain Hackathon 2018
+# This project won 25K at the Bengaluru Blockchain Hackathon 2018
 
 1. [Link to contract deployed on Ropsten testnet](https://ropsten.etherscan.io/address/0x60b83faf96cd93f96816baf2edcbf9b8004ad611) <br>
 2. [Link to pitchdeck](https://docs.google.com/presentation/d/1Bjv0yhmYSKiW36YgUTf5p1XEU5BMTuJynr9DU1uqINE/edit?usp=sharing) <br>
